@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Rembrant/Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="sidebar" id="sidebar">
+    <div class="close-btn" onclick="toggleSidebar()">×</div>
+    <nav>
+      <ul>
+        <li><a href="#home" onclick="toggleSidebar()"><span><i class="fa-solid fa-house"></i></span>Home</a></li>
+         <li><a href="#skills" onclick="toggleSidebar()"><span><i class="fa-solid fa-toolbox"></i></span>Skills</a></li>
+        <li><a href="#projects" onclick="toggleSidebar()"><span><i class="fa-solid fa-diagram-project"></i></span>Projects</a></li>
+        <li><a href="#contact" onclick="toggleSidebar()"><span><i class="fa-solid fa-location-dot"></i></span>Location</a></li>
+      </ul>
+      <div class="sidebar-button">
+        <button class="custom-btn btn-1">Hire Me</button>
+      </div>
+    </nav>
+  </div>
+
+  <div class="content">
+    <header>
+      <div class="hamburger" onclick="toggleSidebar()">☰</div>
+    </header>
+    <section id="home">
+      <img src="./Img/Profile.jpg" class="img"
+      data-aos="zoom-out"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      >
+      <div class="description">
+        <h3>Hello world I'm</h3>
+        <h2>Rembrant Iban</h2>
+        <h2><span>Aspiring</span> Web Developer</h2>
+      </div>
+      <div class="contact">
+        <div class="stick">   
+        <span>____________</span></div>
+          <div class="list">
+            <ul>
+              <li><span><i class="fa-solid fa-location-dot"></i></span>Buenavista Guihulngan City </li>
+              <li><span><i class="fa-solid fa-phone"></i></span>09657927174</li>
+              <li><span><i class="fa-solid fa-school"></i></span>St Francis College Guihulngan</li>
+            </ul>
+          </div>
+         <div class="social">
+            <div class="btn1"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+             data-aos-once="false"
+            >
+              <button>
+                <a href="https://www.facebook.com/rembrant.calumba">
+         <i class="fa-brands fa-facebook"></i>
+          <span>Facebook</span>
+          </a>
+          </button>
+            </div>
+            <div class="btn2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            >
+              <button >
+                <a href="https://github.com/rembrantiban">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+                </a>
+              </button>
+              
+            </div>
+          </div>
+      </div> -->
+    </section>
+    <section id="skills">
+      <div class="title">
+        <h2
+        data-aos="fade-down"
+      data-aos-delay="100"
+      data-aos-duration="400"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+        >Skills<span>__________</span></h2>
+      </div>
+      <div class="btn"> 
+      <button class="skills"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      onclick="displayedSkills()">Skills</button>
+      <button class="tools"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      onclick="displayedTools()">Tools</button>
+      </div>
+      <div class="skills_list" id="skills_list">
+        <div class="img"
+        data-aos="fade-left"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+        >
+        <i class="fa-brands fa-html5"></i><span>Html</span>
+        </div>
+         <div class="img"
+      data-aos="fade-left"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+         >
+        <i class="fa-brands fa-css3-alt"></i><span>css</span>
+        </div>
+        <div class="img"
+        data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+        >
+        <i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span>
+        </div>
+        <div class="img"
+        data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+        >
+        <i class="fa-brands fa-react"></i><span>React</span>
+        </div>
+        <div class="img" 
+       data-aos="fade-left"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+        >
+        <img src="typescript.png"><span>Typescript</span>
+        </div>
+        <div class="img" 
+        data-aos="fade-left"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+        >
+       <img src="express-js.png"><span>Expressjs</span>
+       </div>
+       <div class="img"
+       data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+       >
+        <i class="fa-brands fa-node-js"></i><span>nodejs</span>
+        </div>
+        <div class="img"
+      data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+        >
+        <img src="Mongodb.png"><span>Mongodb</span>
+        </div>
+      </div>
+      <div class="tools_list" id="tools_list">
+        <div class="img2">
+          <i class="fa-brands fa-npm"></i>
+          <span>Npm</span>
+        </div>
+        <div class="img2">
+          <img src="Vscode.png">
+          <span>Vs code</span>
+        </div>
+        <div class="img2">
+          <img src="docker.png">
+          <span>Docker</span>
+        </div>
+        <div class="img2">
+          <img src="Postman.png">
+          <span>Postman</span>
+        </div>
+        <div class="img2">
+          <img src="chakra-ui-144.png">
+          <span>Chakra UI</span>
+        </div>
+        <div class="img2">
+          <img src="material-ui.png">
+          <span>Material UI</span>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+    <div class="title"
+    data-aos="fade-down"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+    >
+      <h2>Project</h2>
+       <span>_________</span>
+    </div>
+    <div class="swiper container"
+    data-aos="zoom-in"
+      data-aos-delay="100"
+      data-aos-duration="900"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+    >
+      <div class="swiper-wrapper card_list ">
+<div class="card swiper-slide">
+  <div class="card__shine"></div>
+  <div class="card__glow"></div>
+  <div class="card__content">
+    <div style="--bg-color: #a78bfa" class="card__image">
+      <img src="Admin_dashboard.jpeg">
+    </div>
+    <div class="card__text">
+      <p class="card__title">Admin Dashboard</p>
+      <p class="card__description">Hover to reveal stunning effects</p>
+    </div>
+    <div class="card__footer">
+      <div class="card__price">$49.99</div>
+      <div class="card__button">
+        <svg height="16" width="16" viewBox="0 0 24 24">
+          <path
+            stroke-width="2"
+            stroke="currentColor"
+            d="M4 12H20M12 4V20"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card swiper-slide">
+  <div class="card__shine"></div>
+  <div class="card__glow"></div>
+  <div class="card__content">
+    <div style="--bg-color: #a78bfa" class="card__image">
+      <img src="form.jpeg">
+    </div>
+    <div class="card__text">
+      <p class="card__title">Fullstack LoginForm</p>
+      <p class="card__description">Hover to reveal stunning effects</p>
+    </div>
+    <div class="card__footer">
+      <div class="card__price">$49.99</div>
+      <div class="card__button">
+        <svg height="16" width="16" viewBox="0 0 24 24">
+          <path
+            stroke-width="2"
+            stroke="currentColor"
+            d="M4 12H20M12 4V20"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card swiper-slide">
+  <div class="card__shine"></div>
+  <div class="card__glow"></div>
+  <div class="card__content">
+    <div style="--bg-color: #a78bfa" class="card__image">
+        <img src="crud.png">
+    </div>
+    <div class="card__text">
+      <p class="card__title">Crud</p>
+      <p class="card__description">Hover to reveal stunning effects</p>
+    </div>
+    <div class="card__footer">
+      <div class="card__price">$49.99</div>
+      <div class="card__button">
+        <svg height="16" width="16" viewBox="0 0 24 24">
+          <path
+            stroke-width="2"
+            stroke="currentColor"
+            d="M4 12H20M12 4V20"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card swiper-slide">
+  <div class="card__shine"></div>
+  <div class="card__glow"></div>
+  <div class="card__content">
+    <div style="--bg-color: #a78bfa" class="card__image">
+      <img src="Spotify.jpeg">
+    </div>
+    <div class="card__text">
+      <p class="card__title"> Spotify clone</p>
+      <p class="card__description">Hover to reveal stunning effects</p>
+    </div>
+    <div class="card__footer">
+      <div class="card__price">$49.99</div>
+      <div class="card__button">
+        <svg height="16" width="16" viewBox="0 0 24 24">
+          <path
+            stroke-width="2"
+            stroke="currentColor"
+            d="M4 12H20M12 4V20"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+ </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+    </div>
+   
+    </section>
+
+    <section id="contact">
+      <div class="title"
+      data-aos="fade-down"
+      data-aos-delay="100"
+      data-aos-duration="900"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      >
+        <h2>Location</h2>
+        <span>_________</span>
+      </div>
+      <div class="location"
+      data-aos="zoom-in"
+      data-aos-delay="100"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      > 
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73970.39467344459!2d123.2405912709504!3d10.12921268171698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a957fdfa190957%3A0xfcdfa5eab3cfba8e!2sBuenavista%2C%20Guihulngan%20City%2C%20Negros%20Oriental!5e1!3m2!1sen!2sph!4v1745026303716!5m2!1sen!2sph" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+<div class="form-container">
+      <form class="form">
+        <div class="form-group"
+        data-aos="fade-left"
+        data-aos-delay="100"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        >
+          <label for="email">Company Email</label>
+          <input type="text" id="email" name="email" required="">
+        </div>
+        <div class="form-group">
+          <label for="textarea">How Can We Help You?</label>
+          <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+        </div>
+      <button class="custom-btn btn-1">Hire Me</button>
+      </form>
+    </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="Main.js">
+  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
